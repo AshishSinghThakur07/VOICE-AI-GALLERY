@@ -166,7 +166,7 @@ function ImprovGameUI({ playerName }: { playerName: string }) {
                                     barCount={7}
                                     trackRef={audioTrack}
                                     className="h-full w-full"
-                                    options={{ color: state === 'speaking' ? '#facc15' : '#22c55e' }}
+                                    style={{ color: state === 'speaking' ? '#facc15' : '#22c55e' }}
                                 />
                             </div>
                         ) : (
