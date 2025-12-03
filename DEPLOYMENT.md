@@ -12,12 +12,17 @@ This application has two parts that need to be deployed separately:
 - **Where to deploy**: **Vercel** (Best & Free for personal use).
 - **Why**: Native support for Next.js, global CDN, easy setup.
 - **How**:
-  1. Push your `frontend` folder to a GitHub repository.
-  2. Import the repo in Vercel.
-  3. Set Environment Variables in Vercel:
-     - `LIVEKIT_API_KEY`: Your API Key.
-     - `LIVEKIT_API_SECRET`: Your API Secret.
-     - `NEXT_PUBLIC_LIVEKIT_URL`: Your LiveKit Cloud URL (wss://...).
+  1. Push your code to the GitHub repository.
+  2. Go to Vercel Dashboard -> "Add New..." -> "Project".
+  3. Import your `VOICE-AI-GALLERY` repository.
+  4. **CRITICAL STEP**: In the "Configure Project" screen:
+     - **Root Directory**: Click "Edit" and select `frontend`.
+     - **Framework Preset**: It should automatically detect "Next.js" after you change the root directory. If not, select "Next.js".
+  5. **Environment Variables**: Expand the section and add:
+     - `LIVEKIT_API_KEY`: Your API Key (from LiveKit Cloud).
+     - `LIVEKIT_API_SECRET`: Your API Secret (from LiveKit Cloud).
+     - `LIVEKIT_URL`: Your LiveKit Cloud URL (wss://...).
+  6. Click **Deploy**.
 
 ### B. Backend (Python Agent)
 - **Where to deploy**: **Fly.io** or **Railway** (Free tiers/Trial available).
