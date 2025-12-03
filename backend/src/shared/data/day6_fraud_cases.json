@@ -1,0 +1,52 @@
+[
+  {
+    "userName": "John",
+    "securityIdentifier": "12345",
+    "cardEnding": "4242",
+    "case": "pending_review",
+    "transactionName": "ABC Industry",
+    "transactionAmount": 15000,
+    "transactionTime": "2025-11-30T10:30:00",
+    "transactionCategory": "e-commerce",
+    "transactionSource": "alibaba.com",
+    "merchantLocation": "Mumbai, India",
+    "securityQuestion": "What is your mother's maiden name?",
+    "securityAnswer": "Smith",
+    "outcome": null,
+    "outcomeNote": null
+  },
+  {
+    "userName": "Sarah",
+    "securityIdentifier": "67890",
+    "cardEnding": "5678",
+    "case": "pending_review",
+    "transactionName": "XYZ Electronics",
+    "transactionAmount": 25000,
+    "transactionTime": "2025-11-30T14:15:00",
+    "transactionCategory": "retail",
+    "transactionSource": "xyz-electronics.in",
+    "merchantLocation": "Delhi, India",
+    "securityQuestion": "What was the name of your first pet?",
+    "securityAnswer": "Max",
+    "outcome": null,
+    "outcomeNote": null
+  },
+  {
+    "userName": "Raj",
+    "securityIdentifier": "11111",
+    "cardEnding": "9999",
+    "case": "pending_review",
+    "transactionName": "Global Services",
+    "transactionAmount": 50000,
+    "transactionTime": "2025-11-30T16:45:00",
+    "transactionCategory": "services",
+    "transactionSource": "globalservices.com",
+    "merchantLocation": "Bangalore, India",
+    "securityQuestion": "What city were you born in?",
+    "securityAnswer": "Chennai",
+    "outcome": null,
+    "outcomeNote": null
+  }
+]
+
+

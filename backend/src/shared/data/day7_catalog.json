@@ -1,0 +1,173 @@
+{
+  "categories": {
+    "groceries": [
+      {
+        "id": "bread-white",
+        "name": "White Bread",
+        "category": "groceries",
+        "price": 45,
+        "brand": "FreshBake",
+        "size": "400g",
+        "tags": ["vegetarian", "gluten"]
+      },
+      {
+        "id": "bread-wholewheat",
+        "name": "Whole Wheat Bread",
+        "category": "groceries",
+        "price": 55,
+        "brand": "HealthyLoaf",
+        "size": "400g",
+        "tags": ["vegetarian", "gluten", "healthy"]
+      },
+      {
+        "id": "eggs",
+        "name": "Farm Fresh Eggs",
+        "category": "groceries",
+        "price": 120,
+        "brand": "FarmFresh",
+        "size": "12 pieces",
+        "tags": ["vegetarian", "protein"]
+      },
+      {
+        "id": "milk",
+        "name": "Full Cream Milk",
+        "category": "groceries",
+        "price": 65,
+        "brand": "DairyPure",
+        "size": "1 liter",
+        "tags": ["vegetarian", "dairy"]
+      },
+      {
+        "id": "peanut-butter",
+        "name": "Peanut Butter",
+        "category": "groceries",
+        "price": 180,
+        "brand": "NuttyDelight",
+        "size": "500g",
+        "tags": ["vegetarian", "protein", "vegan"]
+      },
+      {
+        "id": "pasta",
+        "name": "Pasta",
+        "category": "groceries",
+        "price": 85,
+        "brand": "ItalianStyle",
+        "size": "500g",
+        "tags": ["vegetarian", "gluten"]
+      },
+      {
+        "id": "pasta-sauce",
+        "name": "Tomato Pasta Sauce",
+        "category": "groceries",
+        "price": 95,
+        "brand": "ItalianStyle",
+        "size": "400g",
+        "tags": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "cheese",
+        "name": "Cheddar Cheese",
+        "category": "groceries",
+        "price": 250,
+        "brand": "CheeseMaster",
+        "size": "200g",
+        "tags": ["vegetarian", "dairy"]
+      },
+      {
+        "id": "tomatoes",
+        "name": "Fresh Tomatoes",
+        "category": "groceries",
+        "price": 60,
+        "brand": "FarmFresh",
+        "size": "1 kg",
+        "tags": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "onions",
+        "name": "Fresh Onions",
+        "category": "groceries",
+        "price": 40,
+        "brand": "FarmFresh",
+        "size": "1 kg",
+        "tags": ["vegetarian", "vegan"]
+      }
+    ],
+    "snacks": [
+      {
+        "id": "chips",
+        "name": "Potato Chips",
+        "category": "snacks",
+        "price": 30,
+        "brand": "Crunchy",
+        "size": "100g",
+        "tags": ["vegetarian", "gluten"]
+      },
+      {
+        "id": "cookies",
+        "name": "Chocolate Cookies",
+        "category": "snacks",
+        "price": 75,
+        "brand": "SweetTreat",
+        "size": "200g",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "nuts",
+        "name": "Mixed Nuts",
+        "category": "snacks",
+        "price": 200,
+        "brand": "NuttyDelight",
+        "size": "250g",
+        "tags": ["vegetarian", "vegan", "protein"]
+      }
+    ],
+    "prepared_food": [
+      {
+        "id": "pizza-margherita",
+        "name": "Margherita Pizza",
+        "category": "prepared_food",
+        "price": 299,
+        "brand": "PizzaCorner",
+        "size": "Medium",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "sandwich-veg",
+        "name": "Vegetable Sandwich",
+        "category": "prepared_food",
+        "price": 120,
+        "brand": "FreshBites",
+        "size": "Regular",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "burger-veg",
+        "name": "Veg Burger",
+        "category": "prepared_food",
+        "price": 150,
+        "brand": "BurgerHouse",
+        "size": "Regular",
+        "tags": ["vegetarian"]
+      }
+    ]
+  },
+  "recipes": {
+    "peanut_butter_sandwich": {
+      "name": "Peanut Butter Sandwich",
+      "items": ["bread-white", "peanut-butter"],
+      "description": "Simple peanut butter sandwich"
+    },
+    "pasta_dish": {
+      "name": "Pasta Dish",
+      "items": ["pasta", "pasta-sauce", "cheese", "tomatoes", "onions"],
+      "description": "Classic pasta with sauce and vegetables"
+    },
+    "scrambled_eggs": {
+      "name": "Scrambled Eggs",
+      "items": ["eggs", "milk", "cheese"],
+      "description": "Creamy scrambled eggs"
+    }
+  }
+}
+
+

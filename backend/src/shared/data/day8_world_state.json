@@ -1,0 +1,29 @@
+{
+  "universe": "fantasy",
+  "tone": "dramatic",
+  "player_character": {
+    "name": "",
+    "class": "",
+    "hp": 100,
+    "max_hp": 100,
+    "status": "Healthy",
+    "inventory": [],
+    "traits": []
+  },
+  "npcs": [],
+  "locations": {
+    "current": {
+      "name": "The Enchanted Forest",
+      "description": "A mysterious forest filled with ancient trees and magical creatures.",
+      "paths": ["north", "east", "south"]
+    }
+  },
+  "events": [],
+  "quests": {
+    "active": [],
+    "completed": []
+  },
+  "session_started": false
+}
+
+

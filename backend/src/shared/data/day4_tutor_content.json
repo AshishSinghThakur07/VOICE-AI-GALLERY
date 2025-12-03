@@ -1,0 +1,34 @@
+[
+  {
+    "id": "variables",
+    "title": "Variables",
+    "summary": "Variables are containers that store values so you can reuse them later in your code. Think of them like labeled boxes where you can put information. For example, you might store a person's name in a variable called 'name', and then use that variable throughout your program instead of typing the name over and over.",
+    "sample_question": "What is a variable and why is it useful in programming?"
+  },
+  {
+    "id": "loops",
+    "title": "Loops",
+    "summary": "Loops let you repeat an action multiple times without writing the same code over and over. There are different types of loops: 'for' loops repeat a specific number of times, while 'while' loops continue as long as a condition is true. Loops are essential for processing lists of items or repeating tasks efficiently.",
+    "sample_question": "Explain the difference between a for loop and a while loop."
+  },
+  {
+    "id": "functions",
+    "title": "Functions",
+    "summary": "Functions are reusable blocks of code that perform a specific task. You can call a function by its name whenever you need that task done, which helps you avoid repeating code. Functions can take inputs (called parameters) and return outputs. They're like recipes - you write them once, then use them whenever you need.",
+    "sample_question": "What is a function and how does it help organize code?"
+  },
+  {
+    "id": "conditionals",
+    "title": "Conditional Statements",
+    "summary": "Conditional statements (like if-else) let your program make decisions. They check if something is true or false, and then execute different code based on that. For example, 'if it's raining, bring an umbrella, else don't.' This gives your programs the ability to respond differently to different situations.",
+    "sample_question": "How do conditional statements help programs make decisions?"
+  },
+  {
+    "id": "arrays",
+    "title": "Arrays and Lists",
+    "summary": "Arrays (or lists) are collections of items stored together. Instead of having separate variables for each item, you can store them all in one array. You can access items by their position (index) in the array. Arrays are useful for storing multiple related items, like a list of names, numbers, or any other data.",
+    "sample_question": "What is an array and when would you use one?"
+  }
+]
+
+

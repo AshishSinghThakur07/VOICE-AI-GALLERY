@@ -1,0 +1,40 @@
+{
+  "company_name": "TechFlow Solutions",
+  "description": "TechFlow Solutions is an Indian startup providing AI-powered workflow automation tools for businesses.",
+  "faq": [
+    {
+      "question": "What does your product do?",
+      "answer": "TechFlow Solutions provides AI-powered workflow automation tools that help businesses streamline their operations, reduce manual work, and increase productivity. Our platform integrates with popular business tools and automates repetitive tasks."
+    },
+    {
+      "question": "Who is this product for?",
+      "answer": "Our product is designed for small to medium-sized businesses, startups, and teams looking to automate their workflows. It's particularly useful for companies that handle a lot of repetitive tasks and want to focus on growth."
+    },
+    {
+      "question": "Do you have a free tier?",
+      "answer": "Yes! We offer a free tier that includes basic automation features for up to 5 team members. It's perfect for trying out our platform and seeing how it can help your business."
+    },
+    {
+      "question": "What are your pricing plans?",
+      "answer": "We have three main plans: Starter at ₹999/month for small teams, Professional at ₹2,999/month for growing businesses, and Enterprise with custom pricing for larger organizations. All plans include a 14-day free trial."
+    },
+    {
+      "question": "How does the integration work?",
+      "answer": "Our platform integrates seamlessly with popular tools like Slack, Google Workspace, Microsoft 365, and many others. Setup is simple - just connect your accounts and start creating automation workflows."
+    },
+    {
+      "question": "Is there customer support?",
+      "answer": "Absolutely! We provide email support for all users, and Professional and Enterprise plans include priority support with faster response times. We also have comprehensive documentation and video tutorials."
+    },
+    {
+      "question": "Can I try it before buying?",
+      "answer": "Yes, all our paid plans come with a 14-day free trial. You can also use our free tier indefinitely to explore the platform. No credit card required for the free tier."
+    },
+    {
+      "question": "What kind of automations can I create?",
+      "answer": "You can automate a wide variety of tasks including email responses, data entry, report generation, task assignments, notifications, and much more. Our AI helps suggest automation opportunities based on your workflow patterns."
+    }
+  ]
+}
+
+
