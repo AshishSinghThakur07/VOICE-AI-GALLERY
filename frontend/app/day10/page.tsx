@@ -160,14 +160,18 @@ function ImprovGameUI({ playerName }: { playerName: string }) {
                         } border-4 bg-neutral-900/80 backdrop-blur-sm`}>
 
                         {state === 'speaking' || state === 'listening' ? (
-                            <div className="w-40 h-20 flex items-center justify-center">
-                                <BarVisualizer
-                                    state={state}
-                                    barCount={7}
-                                    trackRef={audioTrack}
-                                    className="h-full w-full"
-                                    style={{ color: state === 'speaking' ? '#facc15' : '#22c55e' }}
-                                />
+                            <div className="w-40 h-20 flex items-center justify-center gap-1">
+                                {[...Array(7)].map((_, i) => (
+                                    <div
+                                        key={i}
+                                        className="w-2 rounded-full animate-pulse"
+                                        style={{
+                                            height: `${Math.random() * 60 + 20}%`,
+                                            backgroundColor: state === 'speaking' ? '#facc15' : '#22c55e',
+                                            animationDelay: `${i * 0.1}s`
+                                        }}
+                                    />
+                                ))}
                             </div>
                         ) : (
                             <div className="text-6xl animate-pulse">🎤</div>
